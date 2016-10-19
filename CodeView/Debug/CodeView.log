@@ -1,0 +1,50 @@
+﻿빌드 시작: 2012-06-29 오전 9:43:43
+     1>2 노드의 "D:\d\Documents\dev\src\c\MyProjects\application\codeView\codeView_vc2010_20120530_1030\CodeView\CodeView.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\CodeView.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CodeView.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CodeViewView.cpp
+         CodeViewView.cpp
+     1>d:\d\documents\dev\src\c\myprojects\application\codeview\codeview_vc2010_20120530_1030\codeview\codeviewview.cpp(241): warning C4129: '*' : 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+     1>d:\d\documents\dev\src\c\myprojects\application\codeview\codeview_vc2010_20120530_1030\codeview\codeviewview.cpp(241): warning C4129: ' ' : 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+     1>d:\d\documents\dev\src\c\myprojects\application\codeview\codeview_vc2010_20120530_1030\codeview\codeviewview.cpp(1367): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+     1>d:\d\documents\dev\src\c\myprojects\application\codeview\codeview_vc2010_20120530_1030\codeview\codeviewview.cpp(1452): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+     1>d:\d\documents\dev\src\c\myprojects\application\codeview\codeview_vc2010_20120530_1030\codeview\codeviewview.cpp(1603): warning C4552: '>' : 의미 없는 연산자입니다. 파생 작업이 있는 연산자여야 합니다.
+       ResourceCompile:
+         모든 출력이 최신 상태입니다.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\d\Documents\dev\src\c\MyProjects\application\codeView\codeView_vc2010_20120530_1030\Debug\CodeView.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\CodeView.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\d\Documents\dev\src\c\MyProjects\application\codeView\codeView_vc2010_20120530_1030\Debug\CodeView.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\d\Documents\dev\src\c\MyProjects\application\codeView\codeView_vc2010_20120530_1030\Debug\CodeView.lib" /MACHINE:X86 Debug\CodeView.res
+         Debug\CodeView.exe.embed.manifest.res
+         Debug\ChildFrm.obj
+         Debug\CodeView.obj
+         Debug\CodeViewDoc.obj
+         Debug\CodeViewPopup1.obj
+         Debug\CodeViewView.obj
+         Debug\GridCell.obj
+         Debug\GridCellBase.obj
+         Debug\GridCtrl.obj
+         Debug\GridDropTarget.obj
+         Debug\InPlaceEdit.obj
+         Debug\GridCellNumeric.obj
+         Debug\TitleTip.obj
+         Debug\MainFrm.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\CodeView.exe.embed.manifest" /manifest Debug\CodeView.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         CodeView.vcxproj -> D:\d\Documents\dev\src\c\MyProjects\application\codeView\codeView_vc2010_20120530_1030\Debug\CodeView.exe
+       FinalizeBuildStatus:
+         "Debug\CodeView.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\CodeView.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\d\Documents\dev\src\c\MyProjects\application\codeView\codeView_vc2010_20120530_1030\CodeView\CodeView.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:04.76

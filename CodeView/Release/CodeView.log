@@ -1,0 +1,54 @@
+﻿빌드 시작: 2011-09-30 오전 9:54:10
+     1>2 노드의 "D:\d\Documents\dev\src\c\MyProjects\application\codeView\codeView_vc2010_20110930_0900\CodeView\CodeView.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>_PrepareForClean:
+         "Release\CodeView.lastbuildstate" 파일을 삭제하고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Release\CodeView.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\CodeView.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\CodeView.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ChildFrm.cpp CodeView.cpp CodeViewDoc.cpp CodeViewView.cpp GridCtrl_src\GridCell.cpp GridCtrl_src\GridCellBase.cpp GridCtrl_src\GridCtrl.cpp GridCtrl_src\GridDropTarget.cpp GridCtrl_src\InPlaceEdit.cpp GridCtrl_src\TitleTip.cpp MainFrm.cpp
+         ChildFrm.cpp
+         CodeView.cpp
+         CodeViewDoc.cpp
+         CodeViewView.cpp
+     1>CodeViewView.cpp(451): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+     1>CodeViewView.cpp(510): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+         GridCell.cpp
+         GridCellBase.cpp
+         GridCtrl.cpp
+         GridDropTarget.cpp
+         InPlaceEdit.cpp
+         TitleTip.cpp
+         MainFrm.cpp
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /l"0x0412" /IRelease\ /nologo /fo"Release\CodeView.res" CodeView.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\d\Documents\dev\src\c\MyProjects\application\codeView\codeView_vc2010_20110930_0900\Release\CodeView.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\CodeView.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\d\Documents\dev\src\c\MyProjects\application\codeView\codeView_vc2010_20110930_0900\Release\CodeView.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\d\Documents\dev\src\c\MyProjects\application\codeView\codeView_vc2010_20110930_0900\Release\CodeView.lib" /MACHINE:X86 Release\CodeView.res
+         Release\ChildFrm.obj
+         Release\CodeView.obj
+         Release\CodeViewDoc.obj
+         Release\CodeViewView.obj
+         Release\GridCell.obj
+         Release\GridCellBase.obj
+         Release\GridCtrl.obj
+         Release\GridDropTarget.obj
+         Release\InPlaceEdit.obj
+         Release\TitleTip.obj
+         Release\MainFrm.obj
+         Release\stdafx.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         CodeView.vcxproj -> D:\d\Documents\dev\src\c\MyProjects\application\codeView\codeView_vc2010_20110930_0900\Release\CodeView.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\d\Documents\dev\src\c\MyProjects\application\codeView\codeView_vc2010_20110930_0900\Release\CodeView.exe;#1" /manifest Release\CodeView.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         "Release\CodeView.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Release\CodeView.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\d\Documents\dev\src\c\MyProjects\application\codeView\codeView_vc2010_20110930_0900\CodeView\CodeView.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:16.43
